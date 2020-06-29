@@ -1,0 +1,10 @@
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\bin\Debug\SmpleCalculator.exe.config
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\bin\Debug\SmpleCalculator.exe
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\bin\Debug\SmpleCalculator.pdb
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\obj\Debug\SimpleCalculator.csprojAssemblyReference.cache
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\obj\Debug\SmpleCalculator.Form1.resources
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\obj\Debug\SmpleCalculator.Properties.Resources.resources
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\obj\Debug\SimpleCalculator.csproj.GenerateResource.cache
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\obj\Debug\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\obj\Debug\SmpleCalculator.exe
+C:\Users\zbshadow-pc\Source\Repos\zbshadow\Simple-Calculator\obj\Debug\SmpleCalculator.pdb

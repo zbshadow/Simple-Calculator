@@ -96,20 +96,23 @@
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // txtOperand1
             // 
             this.txtOperand1.Location = new System.Drawing.Point(101, 12);
             this.txtOperand1.Name = "txtOperand1";
             this.txtOperand1.Size = new System.Drawing.Size(100, 20);
-            this.txtOperand1.TabIndex = 6;
+            this.txtOperand1.TabIndex = 1;
+            this.txtOperand1.TextChanged += new System.EventHandler(this.txtField_TextChanged);
             // 
             // txtOperand2
             // 
             this.txtOperand2.Location = new System.Drawing.Point(101, 82);
             this.txtOperand2.Name = "txtOperand2";
             this.txtOperand2.Size = new System.Drawing.Size(100, 20);
-            this.txtOperand2.TabIndex = 7;
+            this.txtOperand2.TabIndex = 3;
+            this.txtOperand2.TextChanged += new System.EventHandler(this.txtField_TextChanged);
             // 
             // txtResult
             // 
@@ -117,7 +120,7 @@
             this.txtResult.Name = "txtResult";
             this.txtResult.ReadOnly = true;
             this.txtResult.Size = new System.Drawing.Size(100, 20);
-            this.txtResult.TabIndex = 8;
+            this.txtResult.TabIndex = 4;
             this.txtResult.TabStop = false;
             // 
             // txtOperator
@@ -125,7 +128,8 @@
             this.txtOperator.Location = new System.Drawing.Point(101, 47);
             this.txtOperator.Name = "txtOperator";
             this.txtOperator.Size = new System.Drawing.Size(34, 20);
-            this.txtOperator.TabIndex = 9;
+            this.txtOperator.TabIndex = 2;
+            this.txtOperator.TextChanged += new System.EventHandler(this.txtField_TextChanged);
             // 
             // Form1
             // 
