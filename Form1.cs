@@ -16,25 +16,39 @@ namespace SmpleCalculator
         {
             InitializeComponent();
         }
-
-        private void Label4_Click(object sender, EventArgs e)
+        
+        private decimal Calculate(decimal operand1, string operator1, decimal operand2)
         {
+            decimal results = 0;
+            switch (operator1)
+            {
+                case "+":
+                    results = operand1 + operand2;
+                    break;
+                case "-":
+                    results = operand1 - operand2;
+                    break;
+                case "*":
+                    results = operand1 * operand2;
+                    break;
+                case "/":
+                    results = operand1 / operand2;
+                    break;
+            }
 
+            return results;
         }
 
-        private void Label2_Click(object sender, EventArgs e)
+        private void BtnCalculate_Click(object sender, EventArgs e)
         {
+            //gathers numbers for calculation from the form and the operator
+            decimal operand1 = Convert.ToDecimal(txtOperand1);
+            decimal operand2 = Convert.ToDecimal(txtOperand2);
+            string operator1 = txtResult.Text;
 
-        }
+            decimal results = Calculate(operand1, operator1, operand2);
 
-        private void TextBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Button2_Click(object sender, EventArgs e)
-        {
-
+            txtResult.Text = String.Format("{0:f4}", results);
         }
     }
 }

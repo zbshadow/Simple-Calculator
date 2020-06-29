@@ -57,7 +57,6 @@
             this.lblOperator.Size = new System.Drawing.Size(51, 13);
             this.lblOperator.TabIndex = 1;
             this.lblOperator.Text = "Operator:";
-            this.lblOperator.Click += new System.EventHandler(this.Label2_Click);
             // 
             // lblOperand2
             // 
@@ -77,7 +76,6 @@
             this.lblResult.Size = new System.Drawing.Size(37, 13);
             this.lblResult.TabIndex = 3;
             this.lblResult.Text = "Result";
-            this.lblResult.Click += new System.EventHandler(this.Label4_Click);
             // 
             // btnCalculate
             // 
@@ -87,6 +85,7 @@
             this.btnCalculate.TabIndex = 4;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.BtnCalculate_Click);
             // 
             // btnExit
             // 
@@ -97,7 +96,6 @@
             this.btnExit.TabIndex = 5;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.Button2_Click);
             // 
             // txtOperand1
             // 
@@ -128,7 +126,6 @@
             this.txtOperator.Name = "txtOperator";
             this.txtOperator.Size = new System.Drawing.Size(34, 20);
             this.txtOperator.TabIndex = 9;
-            this.txtOperator.TextChanged += new System.EventHandler(this.TextBox4_TextChanged);
             // 
             // Form1
             // 
